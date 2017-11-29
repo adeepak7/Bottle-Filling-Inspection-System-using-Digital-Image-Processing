@@ -1,0 +1,118 @@
+-- Looking for linux/videodev.h
+-- Looking for linux/videodev.h - not found
+-- Looking for linux/videodev2.h
+-- Looking for linux/videodev2.h - not found
+-- Looking for sys/videoio.h
+-- Looking for sys/videoio.h - not found
+-- Looking for libavformat/avformat.h
+-- Looking for libavformat/avformat.h - not found
+-- Looking for ffmpeg/avformat.h
+-- Looking for ffmpeg/avformat.h - not found
+-- Found apache ant 1.8.2: /usr/bin/ant
+-- Assume that non-module dependency is available: -framework OpenCL (for module opencv_ocl)
+-- 
+-- General configuration for OpenCV 2.4.9 =====================================
+--   Version control:               2.4.9-59-gc9cb480
+-- 
+--   Platform:
+--     Host:                        Darwin 11.4.2 i386
+--     CMake:                       2.8.12.2
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/make
+--     Configuration:               Release
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      NO
+--     C++ Compiler:                /usr/bin/c++  (ver 4.2.0)
+--     C++ flags (Release):         -m64 -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3 -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -m64 -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3 -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -m64 -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3 -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -m64 -fPIC   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3 -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      
+--     Linker flags (Debug):        
+--     Precompiled headers:         NO
+-- 
+--   OpenCV modules:
+--     To be built:                 core flann imgproc highgui features2d calib3d ml video legacy objdetect photo gpu ocl nonfree contrib java python stitching superres ts videostab
+--     Disabled:                    world
+--     Disabled by dependency:      -
+--     Unavailable:                 androidcamera dynamicuda viz
+-- 
+--   GUI: 
+--     QT:                          NO
+--     Cocoa:                       YES
+--     OpenGL support:              NO
+--     VTK support:                 NO
+-- 
+--   Media I/O: 
+--     ZLib:                        build (ver 1.2.7)
+--     JPEG:                        build (ver 62)
+--     PNG:                         build (ver 1.5.12)
+--     TIFF:                        build (ver 42 - 4.0.2)
+--     JPEG 2000:                   build (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+-- 
+--   Video I/O:
+--     DC1394 1.x:                  NO
+--     DC1394 2.x:                  NO
+--     FFMPEG:                      NO
+--       codec:                     NO
+--       format:                    NO
+--       util:                      NO
+--       swscale:                   NO
+--       gentoo-style:              NO
+--     OpenNI:                      NO
+--     OpenNI PrimeSensor Modules:  NO
+--     PvAPI:                       NO
+--     GigEVisionSDK:               NO
+--     QuickTime:                   NO
+--     QTKit:                       YES
+--     V4L/V4L2:                    NO/NO
+-- 
+--   Other third-party libraries:
+--     Use IPP:                     NO
+--     Use Eigen:                   NO
+--     Use TBB:                     NO
+--     Use OpenMP:                  NO
+--     Use GCD                      YES
+--     Use Concurrency              NO
+--     Use C=:                      NO
+--     Use Cuda:                    NO
+--     Use OpenCL:                  YES
+-- 
+--   OpenCL:
+--     Version:                     static
+--     libraries:                   -framework OpenCL
+--     Use AMD FFT:                 NO
+--     Use AMD BLAS:                NO
+-- 
+--   Python:
+--     Interpreter:                 /usr/bin/python (ver 2.7.1)
+--     Libraries:                   /usr/lib/libpython2.7.dylib (ver 2.7.1)
+--     numpy:                       /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include (ver 1.5.1)
+--     packages path:               lib/python2.7/site-packages
+-- 
+--   Java:
+--     ant:                         /usr/bin/ant (ver 1.8.2)
+--     JNI:                         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/JavaVM.framework/Headers /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/JavaVM.framework/Headers /System/Library/Frameworks/JavaVM.framework/Headers
+--     Java tests:                  YES
+-- 
+--   Documentation:
+--     Build Documentation:         NO
+--     Sphinx:                      NO
+--     PdfLaTeX compiler:           NO
+-- 
+--   Tests and samples:
+--     Tests:                       YES
+--     Performance tests:           YES
+--     C/C++ Examples:              NO
+-- 
+--   Install path:                  /usr/local
+-- 
+--   cvconfig.h is in:              /Users/user/Projects/itseez-opencv/build
+-- -----------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/user/Projects/itseez-opencv/build
